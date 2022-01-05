@@ -1,0 +1,183 @@
+--------------------
+E: Counter: 67539
+Fixed Probability Counter
+accuracy: 99.958,            max dev: 5673.203,            mad: 1157.032,            mae: 1157.281,            mre: 1.714,            max: 73184,            min: 63008,            bits: 11.917        
+----------
+Csuros Counter
+accuracy: 99.909,            max dev: 25519.411,            mad: 3961.662,            mae: 3955.158,            mre: 5.856,            max: 93120,            min: 52160,            bits: 10.0        
+--------------------
+T: Counter: 49015
+Fixed Probability Counter
+accuracy: 99.958,            max dev: 4884.582,            mad: 975.945,            mae: 975.93,            mre: 1.991,            max: 53920,            min: 44864,            bits: 11.0        
+----------
+Csuros Counter
+accuracy: 99.881,            max dev: 14350.848,            mad: 2951.826,            mae: 2953.198,            mre: 6.025,            max: 63424,            min: 36800,            bits: 10.0        
+--------------------
+A: Counter: 45482
+Fixed Probability Counter
+accuracy: 99.979,            max dev: 3948.326,            mad: 944.737,            mae: 944.683,            mre: 2.077,            max: 49440,            min: 41568,            bits: 11.0        
+----------
+Csuros Counter
+accuracy: 99.996,            max dev: 13332.275,            mad: 2787.3,            mae: 2787.332,            mre: 6.128,            max: 58816,            min: 33728,            bits: 10.0        
+--------------------
+O: Counter: 44241
+Fixed Probability Counter
+accuracy: 99.948,            max dev: 4264.16,            mad: 942.048,            mae: 942.275,            mre: 2.13,            max: 48416,            min: 40000,            bits: 11.0        
+----------
+Csuros Counter
+accuracy: 99.929,            max dev: 14031.565,            mad: 2763.264,            mae: 2762.334,            mre: 6.244,            max: 58304,            min: 34240,            bits: 10.0        
+--------------------
+N: Counter: 38770
+Fixed Probability Counter
+accuracy: 99.988,            max dev: 4022.49,            mad: 866.384,            mae: 866.373,            mre: 2.235,            max: 42688,            min: 34752,            bits: 11.0        
+----------
+Csuros Counter
+accuracy: 99.924,            max dev: 13360.384,            mad: 2334.607,            mae: 2335.258,            mre: 6.023,            max: 52160,            min: 29120,            bits: 10.0        
+--------------------
+I: Counter: 38155
+Fixed Probability Counter
+accuracy: 99.954,            max dev: 4294.694,            mad: 855.847,            mae: 855.906,            mre: 2.243,            max: 42432,            min: 34560,            bits: 11.0        
+----------
+Csuros Counter
+accuracy: 99.806,            max dev: 12031.13,            mad: 2290.36,            mae: 2292.94,            mre: 6.01,            max: 50112,            min: 29120,            bits: 10.0        
+--------------------
+R: Counter: 35083
+Fixed Probability Counter
+accuracy: 99.997,            max dev: 3956.032,            mad: 825.349,            mae: 825.355,            mre: 2.353,            max: 39040,            min: 31552,            bits: 10.988        
+----------
+Csuros Counter
+accuracy: 99.891,            max dev: 13019.187,            mad: 2091.302,            mae: 2092.615,            mre: 5.965,            max: 48064,            min: 26560,            bits: 10.0        
+--------------------
+S: Counter: 33368
+Fixed Probability Counter
+accuracy: 99.973,            max dev: 3919.046,            mad: 812.529,            mae: 812.432,            mre: 2.435,            max: 37056,            min: 29440,            bits: 10.723        
+----------
+Csuros Counter
+accuracy: 99.892,            max dev: 10636.083,            mad: 1930.293,            mae: 1933.498,            mre: 5.794,            max: 43968,            min: 25792,            bits: 10.0        
+--------------------
+H: Counter: 30813
+Fixed Probability Counter
+accuracy: 99.928,            max dev: 3635.264,            mad: 780.482,            mae: 780.726,            mre: 2.534,            max: 34048,            min: 27200,            bits: 10.028        
+----------
+Csuros Counter
+accuracy: 99.926,            max dev: 8569.651,            mad: 1778.57,            mae: 1778.878,            mre: 5.773,            max: 39360,            min: 23488,            bits: 10.0        
+--------------------
+D: Counter: 23932
+Fixed Probability Counter
+accuracy: 99.967,            max dev: 3851.923,            mad: 688.013,            mae: 688.0,            mre: 2.875,            max: 27776,            min: 20864,            bits: 10.0        
+----------
+Csuros Counter
+accuracy: 99.878,            max dev: 7206.861,            mad: 1441.226,            mae: 1441.378,            mre: 6.023,            max: 31168,            min: 17856,            bits: 10.0        
+--------------------
+L: Counter: 19597
+Fixed Probability Counter
+accuracy: 99.992,            max dev: 3214.502,            mad: 626.176,            mae: 626.176,            mre: 3.195,            max: 22496,            min: 16384,            bits: 10.0        
+----------
+Csuros Counter
+accuracy: 99.871,            max dev: 6681.677,            mad: 1196.755,            mae: 1197.191,            mre: 6.109,            max: 26304,            min: 15168,            bits: 9.995        
+--------------------
+C: Counter: 15983
+Fixed Probability Counter
+accuracy: 99.848,            max dev: 2761.325,            mad: 560.859,            mae: 561.158,            mre: 3.511,            max: 18720,            min: 13632,            bits: 9.278        
+----------
+Csuros Counter
+accuracy: 99.978,            max dev: 5460.48,            mad: 917.554,            mae: 917.689,            mre: 5.742,            max: 21440,            min: 12480,            bits: 9.397        
+--------------------
+U: Counter: 15468
+Fixed Probability Counter
+accuracy: 99.931,            max dev: 2718.624,            mad: 558.07,            mae: 558.24,            mre: 3.609,            max: 18176,            min: 13088,            bits: 9.096        
+----------
+Csuros Counter
+accuracy: 99.909,            max dev: 5474.15,            mad: 899.133,            mae: 899.744,            mre: 5.817,            max: 20928,            min: 11712,            bits: 9.242        
+--------------------
+F: Counter: 15419
+Fixed Probability Counter
+accuracy: 99.955,            max dev: 2603.93,            mad: 549.101,            mae: 549.09,            mre: 3.561,            max: 18016,            min: 12992,            bits: 9.085        
+----------
+Csuros Counter
+accuracy: 99.887,            max dev: 4758.477,            mad: 898.767,            mae: 898.606,            mre: 5.828,            max: 20160,            min: 11584,            bits: 9.222        
+--------------------
+M: Counter: 12363
+Fixed Probability Counter
+accuracy: 99.844,            max dev: 2369.696,            mad: 500.328,            mae: 500.861,            mre: 4.051,            max: 14752,            min: 10176,            bits: 9.0        
+----------
+Csuros Counter
+accuracy: 99.89,            max dev: 3943.347,            mad: 754.915,            mae: 753.981,            mre: 6.099,            max: 16320,            min: 9152,            bits: 9.0        
+--------------------
+P: Counter: 11479
+Fixed Probability Counter
+accuracy: 99.97,            max dev: 2266.496,            mad: 479.837,            mae: 479.814,            mre: 4.18,            max: 13664,            min: 9216,            bits: 9.0        
+----------
+Csuros Counter
+accuracy: 99.878,            max dev: 3546.957,            mad: 695.689,            mae: 694.987,            mre: 6.054,            max: 15040,            min: 8256,            bits: 9.0        
+--------------------
+G: Counter: 10839
+Fixed Probability Counter
+accuracy: 99.866,            max dev: 2263.488,            mad: 461.661,            mae: 461.754,            mre: 4.26,            max: 13088,            min: 8704,            bits: 9.0        
+----------
+Csuros Counter
+accuracy: 99.752,            max dev: 3715.891,            mad: 652.169,            mae: 654.176,            mre: 6.035,            max: 14528,            min: 8384,            bits: 9.0        
+--------------------
+W: Counter: 8697
+Fixed Probability Counter
+accuracy: 99.808,            max dev: 1847.661,            mad: 413.722,            mae: 413.888,            mre: 4.759,            max: 10528,            min: 6848,            bits: 8.83        
+----------
+Csuros Counter
+accuracy: 99.913,            max dev: 3007.398,            mad: 514.94,            mae: 514.511,            mre: 5.916,            max: 11712,            min: 6784,            bits: 9.0        
+--------------------
+B: Counter: 7961
+Fixed Probability Counter
+accuracy: 99.928,            max dev: 1964.704,            mad: 401.928,            mae: 402.019,            mre: 5.05,            max: 9920,            min: 6336,            bits: 8.329        
+----------
+Csuros Counter
+accuracy: 99.881,            max dev: 2461.491,            mad: 458.618,            mae: 458.542,            mre: 5.76,            max: 10432,            min: 6144,            bits: 9.0        
+--------------------
+Y: Counter: 7866
+Fixed Probability Counter
+accuracy: 99.924,            max dev: 2187.942,            mad: 399.16,            mae: 399.138,            mre: 5.074,            max: 10048,            min: 6016,            bits: 8.264        
+----------
+Csuros Counter
+accuracy: 99.825,            max dev: 2296.243,            mad: 458.77,            mae: 458.361,            mre: 5.827,            max: 10176,            min: 5824,            bits: 9.0        
+--------------------
+V: Counter: 5327
+Fixed Probability Counter
+accuracy: 99.966,            max dev: 1680.832,            mad: 324.991,            mae: 324.979,            mre: 6.101,            max: 6720,            min: 3648,            bits: 8.0        
+----------
+Csuros Counter
+accuracy: 99.772,            max dev: 1700.838,            mad: 320.542,            mae: 320.07,            mre: 6.008,            max: 7040,            min: 4160,            bits: 9.0        
+--------------------
+K: Counter: 2498
+Fixed Probability Counter
+accuracy: 99.817,            max dev: 1058.579,            mad: 225.07,            mae: 225.139,            mre: 9.013,            max: 3552,            min: 1536,            bits: 6.955        
+----------
+Csuros Counter
+accuracy: 99.909,            max dev: 736.282,            mad: 152.303,            mae: 152.491,            mre: 6.105,            max: 3232,            min: 1856,            bits: 9.0        
+--------------------
+J: Counter: 1275
+Fixed Probability Counter
+accuracy: 99.983,            max dev: 932.781,            mad: 161.973,            mae: 161.977,            mre: 12.704,            max: 2208,            min: 576,            bits: 5.911        
+----------
+Csuros Counter
+accuracy: 99.876,            max dev: 358.576,            mad: 75.254,            mae: 75.268,            mre: 5.903,            max: 1632,            min: 992,            bits: 9.0        
+--------------------
+Q: Counter: 937
+Fixed Probability Counter
+accuracy: 99.501,            max dev: 786.323,            mad: 135.952,            mae: 135.725,            mre: 14.485,            max: 1728,            min: 384,            bits: 5.332        
+----------
+Csuros Counter
+accuracy: 99.879,            max dev: 325.862,            mad: 52.637,            mae: 52.586,            mre: 5.612,            max: 1264,            min: 704,            bits: 8.385        
+--------------------
+X: Counter: 936
+Fixed Probability Counter
+accuracy: 99.874,            max dev: 633.178,            mad: 133.569,            mae: 133.658,            mre: 14.28,            max: 1568,            min: 384,            bits: 5.321        
+----------
+Csuros Counter
+accuracy: 99.908,            max dev: 280.862,            mad: 52.415,            mae: 52.405,            mre: 5.599,            max: 1216,            min: 712,            bits: 8.366        
+--------------------
+Z: Counter: 865
+Fixed Probability Counter
+accuracy: 99.959,            max dev: 766.643,            mad: 130.664,            mae: 130.633,            mre: 15.102,            max: 1632,            min: 384,            bits: 5.179        
+----------
+Csuros Counter
+accuracy: 99.828,            max dev: 272.49,            mad: 49.163,            mae: 49.224,            mre: 5.691,            max: 1136,            min: 664,            bits: 8.071        
+took 834.59 seconds

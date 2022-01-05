@@ -9,10 +9,10 @@ def visualize(statistics: Dict[str, Dict[chr, List[float]]]):
     csuros_color = 'tab:blue'
 
     fig, ((ax1,ax2),(ax3,ax4), (ax5,ax6), (ax7, ax8)) = plt.subplots(nrows=4, ncols=2)
-    fig.subplots_adjust(hspace=0.4)
+    fig.subplots_adjust(hspace=0.7)
     ax8.set_visible(False)
 
-    """
+    
     # exact counts
     ax1.plot([key for key in statistics['exact_count'].keys()], [result[0] for result in statistics['exact_count'].values()], 'tab:green', label='exact')
     ax1.plot([key for key in statistics['min'].keys()], [results[0] for results in statistics['min'].values()], fixed_prob_color, linestyle='--', label='Fixed-Prob')
@@ -55,24 +55,23 @@ def visualize(statistics: Dict[str, Dict[chr, List[float]]]):
     ax5.set_ylabel('value')
     ax5.set_xlabel('characters')
     ax5.legend()
-    """
+    
 
     # MRE
-    """
     ax6.plot([key for key in statistics['mre'].keys()], [results[0] for results in statistics['mre'].values()], fixed_prob_color, label='Fixed-Prob')
     ax6.plot([key for key in statistics['mre'].keys()], [results[1] for results in statistics['mre'].values()], csuros_color, label='Csuros')
     ax6.set_title('Mean Relative Error')
     ax6.set_ylabel('percentage (%)')
     ax6.set_xlabel('characters')
     ax6.legend()
-    """
     
     # Bits
-    ax6.plot([key for key in statistics['num_bits'].keys()], [results[0] for results in statistics['num_bits'].values()], fixed_prob_color, label='Fixed-Prob')
-    ax6.plot([key for key in statistics['num_bits'].keys()], [results[1] for results in statistics['num_bits'].values()], csuros_color, label='Csuros')
-    ax6.set_title('Bits')
-    ax6.set_ylabel('value')
-    ax6.set_xlabel('characters')
-    ax6.legend()
+    ax7.plot([key for key in statistics['num_bits'].keys()], [results[0] for results in statistics['num_bits'].values()], fixed_prob_color, label='Fixed-Prob')
+    ax7.plot([key for key in statistics['num_bits'].keys()], [results[1] for results in statistics['num_bits'].values()], csuros_color, label='Csuros')
+    ax7.plot([key for key in statistics['num_bits'].keys()], [results[2] for results in statistics['num_bits'].values()], 'tab:green', label='Exact')
+    ax7.set_title('Bits')
+    ax7.set_ylabel('value')
+    ax7.set_xlabel('characters')
+    ax7.legend()
 
     plt.show()

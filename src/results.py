@@ -33,27 +33,29 @@ def compare_char_counts(file_name:str, n_trials:int = 10):
 
         # perform n experiments
         for _ in range(n_trials):
-            fixed_probability_counter = FixedProbabilityCounter()
-            csuros_counter = CsurosCounter()
+            fixed_probability_counter = FixedProbabilityCounter(1/32)
+            csuros_counter = CsurosCounter(6)
 
             # for each counter perform the number of the exact counter increments
             for _ in range(exact_count):
                 fixed_probability_counter.increment()
                 csuros_counter.increment()
-            fixed_probability_list.append(fixed_probability_counter.value)
-            csuros_list.append(csuros_counter.value)
+            fixed_probability_list.append(fixed_probability_counter)
+            csuros_list.append(csuros_counter)
         
         # statistics
         for i, lst in enumerate([fixed_probability_list, csuros_list]):
-            char_statistics['accuracy'][char].insert(i, accuracy(lst, exact_count))
-            char_statistics['max_deviation'][char].insert(i, max_deviation(lst))
-            char_statistics['mad'][char].insert(i, mad(lst))
-            char_statistics['mae'][char].insert(i, mae(lst, exact_count))
-            char_statistics['mre'][char].insert(i, mre(lst, exact_count))
-            char_statistics['max'][char].insert(i, max(lst))
-            char_statistics['min'][char].insert(i, min(lst))
-            char_statistics['num_bits'][char].insert(i, num_bits(lst))
+            float_list = [counter.value for counter in lst]
+            char_statistics['accuracy'][char].insert(i, accuracy(float_list, exact_count))
+            char_statistics['max_deviation'][char].insert(i, max_deviation(float_list))
+            char_statistics['mad'][char].insert(i, mad(float_list))
+            char_statistics['mae'][char].insert(i, mae(float_list, exact_count))
+            char_statistics['mre'][char].insert(i, mre(float_list, exact_count))
+            char_statistics['max'][char].insert(i, max(float_list))
+            char_statistics['min'][char].insert(i, min(float_list))
+            char_statistics['num_bits'][char].insert(i, num_bits([counter.x for counter in lst]))
         char_statistics['exact_count'][char].insert(0, exact_count)
+        char_statistics['num_bits'][char].insert(2, num_bits([exact_count]))
 
         print_stats = lambda i: print(f"accuracy: {char_statistics['accuracy'][char][i]},\
             max dev: {char_statistics['max_deviation'][char][i]},\
@@ -61,12 +63,13 @@ def compare_char_counts(file_name:str, n_trials:int = 10):
             mae: {char_statistics['mae'][char][i]},\
             mre: {char_statistics['mre'][char][i]},\
             max: {char_statistics['max'][char][i]},\
-            min: {char_statistics['min'][char][i]}\
+            min: {char_statistics['min'][char][i]},\
+            bits: {char_statistics['num_bits'][char][i]}\
         ")
 
         print('-'*20)
         print(f'{char}: {str(counter)}')
-        print(f'Fixed Probability Counter')
+        print(f'Fixed Probability Counter', )
         print_stats(0)
         print('-'*10)
         print(f'Csuros Counter')
@@ -80,4 +83,4 @@ def compare_char_counts(file_name:str, n_trials:int = 10):
 
 if __name__ == '__main__':
     seed(100)
-    compare_char_counts("datasets/history_of_portugal.txt", 1000)
+    compare_char_counts("datasets/history_of_portugal.txt", 5000)

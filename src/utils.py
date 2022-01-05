@@ -1,6 +1,4 @@
 
-import sys
-
 def accuracy(lst, truth):
     s = 0
     for value in lst:
@@ -12,7 +10,6 @@ def mre(lst, truth):
     for value in lst:
         s += abs(value-truth)/truth
     return round(s/len(lst)*100, 3)
-
 
 def mae(lst, truth):
     s = 0
@@ -38,4 +35,4 @@ def num_bits(lst):
             if char == '1':
                 s += len(bin(value))-i
                 break
-    return s/len(lst)
+    return round(s/len(lst), 3)
