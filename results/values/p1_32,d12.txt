@@ -1,0 +1,183 @@
+--------------------
+E: Counter: 67539
+Fixed Probability Counter
+accuracy: 99.958,            max dev: 5673.203,            mad: 1157.032,            mae: 1157.281,            mre: 1.714,            max: 73184,            min: 63008        
+----------
+Csuros Counter
+accuracy: 99.994,            max dev: 2344.653,            mad: 486.238,            mae: 486.243,            mre: 0.72,            max: 69888,            min: 65488        
+--------------------
+T: Counter: 49015
+Fixed Probability Counter
+accuracy: 99.958,            max dev: 4884.582,            mad: 975.945,            mae: 975.93,            mre: 1.991,            max: 53920,            min: 44864        
+----------
+Csuros Counter
+accuracy: 99.998,            max dev: 1641.918,            mad: 358.71,            mae: 358.706,            mre: 0.732,            max: 50656,            min: 47416        
+--------------------
+A: Counter: 45482
+Fixed Probability Counter
+accuracy: 99.979,            max dev: 3948.326,            mad: 944.737,            mae: 944.683,            mre: 2.077,            max: 49440,            min: 41568        
+----------
+Csuros Counter
+accuracy: 99.966,            max dev: 1549.597,            mad: 334.983,            mae: 335.26,            mre: 0.737,            max: 47016,            min: 44120        
+--------------------
+O: Counter: 44241
+Fixed Probability Counter
+accuracy: 99.948,            max dev: 4264.16,            mad: 942.048,            mae: 942.275,            mre: 2.13,            max: 48416,            min: 40000        
+----------
+Csuros Counter
+accuracy: 99.981,            max dev: 1680.499,            mad: 325.263,            mae: 325.152,            mre: 0.735,            max: 45664,            min: 42552        
+--------------------
+N: Counter: 38770
+Fixed Probability Counter
+accuracy: 99.988,            max dev: 4022.49,            mad: 866.384,            mae: 866.373,            mre: 2.235,            max: 42688,            min: 34752        
+----------
+Csuros Counter
+accuracy: 99.985,            max dev: 1423.982,            mad: 284.175,            mae: 284.275,            mre: 0.733,            max: 40096,            min: 37352        
+--------------------
+I: Counter: 38155
+Fixed Probability Counter
+accuracy: 99.954,            max dev: 4294.694,            mad: 855.847,            mae: 855.906,            mre: 2.243,            max: 42432,            min: 34560        
+----------
+Csuros Counter
+accuracy: 99.98,            max dev: 1267.274,            mad: 283.07,            mae: 283.145,            mre: 0.742,            max: 39384,            min: 36880        
+--------------------
+R: Counter: 35083
+Fixed Probability Counter
+accuracy: 99.997,            max dev: 3956.032,            mad: 825.349,            mae: 825.355,            mre: 2.353,            max: 39040,            min: 31552        
+----------
+Csuros Counter
+accuracy: 99.994,            max dev: 1206.931,            mad: 253.579,            mae: 253.611,            mre: 0.723,            max: 36288,            min: 33976        
+--------------------
+S: Counter: 33368
+Fixed Probability Counter
+accuracy: 99.973,            max dev: 3919.046,            mad: 812.529,            mae: 812.432,            mre: 2.435,            max: 37056,            min: 29440        
+----------
+Csuros Counter
+accuracy: 99.996,            max dev: 1145.379,            mad: 238.064,            mae: 238.045,            mre: 0.713,            max: 34488,            min: 32224        
+--------------------
+H: Counter: 30813
+Fixed Probability Counter
+accuracy: 99.928,            max dev: 3635.264,            mad: 780.482,            mae: 780.726,            mre: 2.534,            max: 34048,            min: 27200        
+----------
+Csuros Counter
+accuracy: 99.963,            max dev: 1070.522,            mad: 214.352,            mae: 214.454,            mre: 0.696,            max: 31872,            min: 29768        
+--------------------
+D: Counter: 23932
+Fixed Probability Counter
+accuracy: 99.967,            max dev: 3851.923,            mad: 688.013,            mae: 688.0,            mre: 2.875,            max: 27776,            min: 20864        
+----------
+Csuros Counter
+accuracy: 99.98,            max dev: 764.845,            mad: 166.913,            mae: 166.99,            mre: 0.698,            max: 24668,            min: 23172        
+--------------------
+L: Counter: 19597
+Fixed Probability Counter
+accuracy: 99.992,            max dev: 3214.502,            mad: 626.176,            mae: 626.176,            mre: 3.195,            max: 22496,            min: 16384        
+----------
+Csuros Counter
+accuracy: 99.993,            max dev: 616.427,            mad: 137.297,            mae: 137.301,            mre: 0.701,            max: 20212,            min: 19016        
+--------------------
+C: Counter: 15983
+Fixed Probability Counter
+accuracy: 99.848,            max dev: 2761.325,            mad: 560.859,            mae: 561.158,            mre: 3.511,            max: 18720,            min: 13632        
+----------
+Csuros Counter
+accuracy: 100.0,            max dev: 538.938,            mad: 110.968,            mae: 110.968,            mre: 0.694,            max: 16460,            min: 15444        
+--------------------
+U: Counter: 15468
+Fixed Probability Counter
+accuracy: 99.931,            max dev: 2718.624,            mad: 558.07,            mae: 558.24,            mre: 3.609,            max: 18176,            min: 13088        
+----------
+Csuros Counter
+accuracy: 99.986,            max dev: 574.144,            mad: 108.45,            mae: 108.458,            mre: 0.701,            max: 16040,            min: 14988        
+--------------------
+F: Counter: 15419
+Fixed Probability Counter
+accuracy: 99.955,            max dev: 2603.93,            mad: 549.101,            mae: 549.09,            mre: 3.561,            max: 18016,            min: 12992        
+----------
+Csuros Counter
+accuracy: 99.996,            max dev: 521.575,            mad: 106.095,            mae: 106.095,            mre: 0.688,            max: 15940,            min: 14976        
+--------------------
+M: Counter: 12363
+Fixed Probability Counter
+accuracy: 99.844,            max dev: 2369.696,            mad: 500.328,            mae: 500.861,            mre: 4.051,            max: 14752,            min: 10176        
+----------
+Csuros Counter
+accuracy: 99.995,            max dev: 344.406,            mad: 72.338,            mae: 72.34,            mre: 0.585,            max: 12708,            min: 12052        
+--------------------
+P: Counter: 11479
+Fixed Probability Counter
+accuracy: 99.97,            max dev: 2266.496,            mad: 479.837,            mae: 479.814,            mre: 4.18,            max: 13664,            min: 9216        
+----------
+Csuros Counter
+accuracy: 99.978,            max dev: 395.532,            mad: 68.488,            mae: 68.524,            mre: 0.597,            max: 11746,            min: 11086        
+--------------------
+G: Counter: 10839
+Fixed Probability Counter
+accuracy: 99.866,            max dev: 2263.488,            mad: 461.661,            mae: 461.754,            mre: 4.26,            max: 13088,            min: 8704        
+----------
+Csuros Counter
+accuracy: 99.996,            max dev: 290.569,            mad: 64.919,            mae: 64.92,            mre: 0.599,            max: 11130,            min: 10556        
+--------------------
+W: Counter: 8697
+Fixed Probability Counter
+accuracy: 99.808,            max dev: 1847.661,            mad: 413.722,            mae: 413.888,            mre: 4.759,            max: 10528,            min: 6848        
+----------
+Csuros Counter
+accuracy: 99.991,            max dev: 228.227,            mad: 53.818,            mae: 53.821,            mre: 0.619,            max: 8916,            min: 8468        
+--------------------
+B: Counter: 7961
+Fixed Probability Counter
+accuracy: 99.928,            max dev: 1964.704,            mad: 401.928,            mae: 402.019,            mre: 5.05,            max: 9920,            min: 6336        
+----------
+Csuros Counter
+accuracy: 99.99,            max dev: 224.234,            mad: 49.202,            mae: 49.212,            mre: 0.618,            max: 8186,            min: 7742        
+--------------------
+Y: Counter: 7866
+Fixed Probability Counter
+accuracy: 99.924,            max dev: 2187.942,            mad: 399.16,            mae: 399.138,            mre: 5.074,            max: 10048,            min: 6016        
+----------
+Csuros Counter
+accuracy: 99.99,            max dev: 252.762,            mad: 49.409,            mae: 49.411,            mre: 0.628,            max: 8084,            min: 7614        
+--------------------
+V: Counter: 5327
+Fixed Probability Counter
+accuracy: 99.966,            max dev: 1680.832,            mad: 324.991,            mae: 324.979,            mre: 6.101,            max: 6720,            min: 3648        
+----------
+Csuros Counter
+accuracy: 99.986,            max dev: 154.232,            mad: 28.35,            mae: 28.364,            mre: 0.532,            max: 5448,            min: 5172        
+--------------------
+K: Counter: 2498
+Fixed Probability Counter
+accuracy: 99.817,            max dev: 1058.579,            mad: 225.07,            mae: 225.139,            mre: 9.013,            max: 3552,            min: 1536        
+----------
+Csuros Counter
+accuracy: 100.0,            max dev: 0.0,            mad: 0.0,            mae: 0.0,            mre: 0.0,            max: 2498,            min: 2498        
+--------------------
+J: Counter: 1275
+Fixed Probability Counter
+accuracy: 99.983,            max dev: 932.781,            mad: 161.973,            mae: 161.977,            mre: 12.704,            max: 2208,            min: 576        
+----------
+Csuros Counter
+accuracy: 100.0,            max dev: 0.0,            mad: 0.0,            mae: 0.0,            mre: 0.0,            max: 1275,            min: 1275        
+--------------------
+Q: Counter: 937
+Fixed Probability Counter
+accuracy: 99.501,            max dev: 786.323,            mad: 135.952,            mae: 135.725,            mre: 14.485,            max: 1728,            min: 384        
+----------
+Csuros Counter
+accuracy: 100.0,            max dev: 0.0,            mad: 0.0,            mae: 0.0,            mre: 0.0,            max: 937,            min: 937        
+--------------------
+X: Counter: 936
+Fixed Probability Counter
+accuracy: 99.874,            max dev: 633.178,            mad: 133.569,            mae: 133.658,            mre: 14.28,            max: 1568,            min: 384        
+----------
+Csuros Counter
+accuracy: 100.0,            max dev: 0.0,            mad: 0.0,            mae: 0.0,            mre: 0.0,            max: 936,            min: 936        
+--------------------
+Z: Counter: 865
+Fixed Probability Counter
+accuracy: 99.959,            max dev: 766.643,            mad: 130.664,            mae: 130.633,            mre: 15.102,            max: 1632,            min: 384        
+----------
+Csuros Counter
+accuracy: 100.0,            max dev: 0.0,            mad: 0.0,            mae: 0.0,            mre: 0.0,            max: 865,            min: 865        
+took 909.46 seconds
